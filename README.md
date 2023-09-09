@@ -1,4 +1,4 @@
-# iphonedcim
+# iDCIM
 Python command-line tool for exporting media and some metadata from the iOS Photos library in Linux.
 **A better alternative is [osxphotos](https://github.com/RhetTbull/osxphotos) (MacOS/Linux).** This is just a personal project more than anything.
 
