@@ -16,7 +16,7 @@ Python command-line tool for exporting media and some metadata from the iOS Phot
    ```bash
    mkdir -p /home/user/iphone && ifuse /home/user/iphone
    ```
-2. Copy /PhotoData/Photos.sqlite from the iOS media partition to somewhere on your computer, for example:
+2. Copy `/PhotoData/Photos.sqlite` from the iOS media partition to somewhere on your computer, for example:
    ```bash
    cp /home/user/iphone/PhotoData/Photos.sqlite /home/user/Photos.sqlite
    ```
