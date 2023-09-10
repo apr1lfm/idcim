@@ -7,7 +7,7 @@ Python command-line tool for exporting media and some metadata from the iOS Phot
 - **Linux**
 - Python 3
 - An iOS device*
-- [`ifuse`](https://github.com/libimobiledevice/ifuse#ifuse): Mounts the media partition from an iOS device connected via USB (make sure your computer is trusted in iOS). *If you know any similar tools for Windows please let me know*
+- [`ifuse`](https://github.com/libimobiledevice/ifuse#ifuse): Mounts the media partition from an iOS device connected via USB (make sure your computer is trusted in iOS). *If you know any similar tools for Windows, please let me know.*
 
 \**iOS 11+ is needed. I have tested this with iOS 16.0 and iOS 9.3.5, the latter didn't work because its photo database didn't have a ZASSET table. I can confirm iOS 11+ does have ZASSET because of [this](https://github.com/ScottKjr3347/iOS_Local_PL_Photos.sqlite_Queries/blob/main/iOS11/iOS11_LPL_Phsql_Adjust-Mutat.txt).*
 
