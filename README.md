@@ -23,7 +23,6 @@ Python command-line tool for exporting media and some metadata from the iOS Phot
    
    This step isn't required but is recommended as unexpected behaviour may occur if iOS tries to modify the file while the script is using it.
 3. Set up the correct paths in the constants at the top of the file. `DST_ROOT` is where media will be exported to.
-4. Run the script (in any directory)
-     *Depending on how many photos and albums you have, this may put a lot of files in the same folder. I might change this behaviour in future.*
+4. Run the script (in any directory). *Depending on how many photos and albums you have, this may put a lot of files in the same folder. I might change this behaviour in future.*
 6. Briefly check that the date modified on your files matches your Photos library. If not, read the comment near the top of the script.
 7. ⚠️If you choose to delete your photos from your device afterwards, be aware that this script does **NOT** export location metadata or faces or most other metadata. If you want to preserve this you should use an alternative like [osxphotos](https://github.com/RhetTbull/osxphotos) or at least keep the Photos.sqlite file.
